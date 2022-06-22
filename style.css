@@ -1,0 +1,46 @@
+body{
+  background-color: 	#211B15;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+.title{
+  font-family: roboto, 'sans-serif';
+  font-size: 50px;
+  color: #7B68EE;
+}
+
+span{
+  font-family: roboto, 'sans-serif';
+  font-size: 100px;
+  color: #800080;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 40px;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  font-family: roboto, 'sans-serif';
+  font-size: 25px;
+
+}
+
+.decrease{
+  color:#FF0000;
+
+}
+
+.increase{
+  color:#008000;
+
+}
